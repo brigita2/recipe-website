@@ -2,6 +2,7 @@ import { Link, NavLink, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import Recipes from "./Pages/Recipes";
+import Breakfast from "./Pages/Breakfast";
 
 
 function App() {
@@ -21,6 +22,20 @@ function App() {
           <li className="nav-item">
             <NavLink to='/recipes' className='nav-link'>Recipes</NavLink>
           </li>
+
+
+
+
+          {/* <li>
+                <NavLink to='/recipes' className='nav-link'>Recipes</NavLink>
+                <ul>
+                    <li className='nav-item'>
+                      <NavLink to='/recipes/categories/breakfast' className='nav-link'>Breakfast Ideas</NavLink>
+                    </li>
+
+                </ul>
+          </li> */}
+        
         </ul>
       </nav>
 
@@ -28,7 +43,7 @@ function App() {
         <Route path='/home' element={<Home />} />
         <Route path='/about-us' element={<AboutUs />} />
         <Route path='/recipes' element={<Recipes />} />
-
+        <Route path='/recipes/categories/:id' element={<Breakfast />} />
 
         <Route path='*' element={
           <>
