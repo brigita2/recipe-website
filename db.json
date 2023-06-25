@@ -1,19 +1,99 @@
 {
-  "posts": [
+  "recipes": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "title": "Veggie Breakfast Tacos",
+      "ingredients": {
+        "salsa": {
+            "tomato": "large yellow tomato, diced",
+            "onion": "3 tablespoons diced red onion",
+            "cilantro": "3 tablespoons chopped cilantro",
+            "pepper": "½ to 1 serrano pepper, thinly sliced",
+            "garlic": "1 garlic clove, minced",
+            "lime": "juice from ½ lime",
+            "salt": "¼ teaspoon sea salt"
+        },
+        "tacos": {
+            "pepper": "1 green pepper, cored, stem removed, and diced",
+            "scallions": "3 scallions, chopped",
+            "eggs": "6 eggs, beaten",
+            "arugula": "2 cups arugula or spinach, chopped",
+            "olive": "extra-virgin olive oil, for drizzling",
+            "salt": "sea salt and freshly ground black pepper"
+        }
+      },
+      "description": {
+        "stepOne": "Make the Salsa: In a small bowl, combine the tomato, onion, cilantro, serrano, garlic, lime juice and salt. Chill until ready to use.",
+        "stepTwo": "In a small nonstick skillet, heat a drizzle of olive oil over medium heat. Add the green pepper, scallions and a pinch of salt and pepper and sauté until lightly browned, about 5 minutes. Scoop a large spoonful of the salsa into the pepper mixture and stir. Remove from the heat and set aside.",
+        "stepThree": "Brush a large nonstick stick skillet lightly with olive oil and bring to medium heat. Add the eggs, let them cook for a few seconds and then stir. Add the green pepper mixture to the eggs. Continue to stir and scramble the eggs until just set. Remove from the pan from the heat while the eggs are slightly runny and stir in the arugula and half of the extra cilantro.",
+        "stepFour": "Assemble the tacos with the egg mixture, a scoop of salsa, the remaining cilantro and a few slices of avocado. Finish with a squeeze of lime and a pinch of salt and pepper, if desired. Garnish with cilantro and serve with lime wedges."
+      },
+      "authorId": 1,
+      "categoryId": 1
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Sally",
+      "surname": "Vargas",
+      "recipeId": 1,
+      "cookBook": "The Tao of Cooking"
     }
   ],
   "comments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Loved it",
+      "description": "I really like your recipes but it is getting hard to read them. I am older and the light gray is difficult to read.",
+      "name": "Diane",
+      "recipeId": 1
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "categories": [
+    {
+    "id": 1,
+    "title": "Healthy Breakfast Ideas",
+    "description": "Stuck in a breakfast rut? Find over 60 healthy breakfast ideas below! With sweet, savory, easy & make-ahead options, we have something for everyone.",
+    "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/breakfast-580x817.jpg"
+    },
+    {
+      "id":2,
+      "title":"Easy Dinner Ideas",
+      "description": "Wondering what to make for dinner? You're in the right place! Below, you'll find easy dinner ideas to satisfy any craving. Think tacos, pasta, and more!",
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/easy-dinner-ideas-1-580x802.jpg"
+    },
+    {
+      "id":3,
+      "title":"Best Salad Recipes",
+      "description": "A big, bountiful salad is the best way to celebrate delicious seasonal produce! Here are 51 stunning salad recipes I love to make again and again.",
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/salad-580x845.jpg"
+    },
+    {
+      "id":4,
+      "title":"Healthy Lunch Ideas",
+      "description": "If you're looking for new healthy lunch ideas, you're in the right place. These easy lunch recipes are fun, filling, and good for you, too!",
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2018/01/lunch-ideas-580x793.jpg"
+    },
+    {
+      "id":5,
+      "title":"Easy Summer Desserts",
+      "description": "These easy summer desserts include fruit crisps, frozen treats, no-bake recipes, and more! No matter what you're craving, you'll find one you love.",
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2021/06/summer-desserts-1-580x735.jpg"
+    }
+  ],
+  "aboutUs": [
+    {
+      "id": 1,
+      "title": "About Us",
+      "whoWeAre": {
+          "firstParagraph": "Simply Recipes is here to help you cook delicious meals with less stress and more joy. We offer recipes and cooking advice for home cooks, by home cooks. Helping create “kitchen wins” is what we’re all about.", 
+          "secondParagraph": "Simply Recipes was founded in 2003 by Elise Bauer as a home cooking blog to record her favorite family recipes. Today, Simply Recipes has grown into a trusted resource for home cooks with more than 3,000 tested recipes, guides, and meal plans, drawing over 15 million readers each month from around the world. We’re supported by a diverse group of recipe developers, food writers, recipe and product testers, photographers, and other creative professionals."
+        },
+      "ourHistory": "Elise Bauer was a busy Silicon Valley executive when she became sick with a flu that wouldn’t go away in 2001. In 2003, Elise moved home with her parents and lived with them for several years, recovering from chronic fatigue and documenting her parents’ cooking on Simply Recipes. (Here’s more of that story.) Over the years, what started as a small blog grew to reach millions of readers every month! In 2020, Simply Recipes was acquired by Dotdash Meredith, a New York-based media company.",
+      "recipeDevelopment": "Our recipes primarily use fresh, unprocessed ingredients but we also believe there is a time and a place for canned, frozen, and other prepared ingredients. We believe in a diet that includes a wide variety of foods: real butter and cream, extra virgin olive oil, eggs, lots of fruits and vegetables, and protein from meat, fish, beans, and cheese. Plus cake for dessert.",
+      "contactUs": "Have something you’d like to let us know? Whether you have a comment on a recipe or an idea to share, we would love to hear from you:",
+      "email": "contact@simplyrlemonecipes.com."
   }
+]
 }
