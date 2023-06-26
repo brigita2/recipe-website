@@ -1,0 +1,44 @@
+.recipes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "HCo Archer SSm";
+}
+.recipes-wrapper-left {
+    width: 70%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recipes-wrapper-right {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 23px;
+    border-left-style: solid;
+    border-width: 2px;
+}
+
+.category-card {
+    width: 50%;
+}
+.category-card a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.category-card img {
+    height: 500px;
+    width: 90%;
+    object-fit: cover;
+}
+

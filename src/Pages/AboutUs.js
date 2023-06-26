@@ -3,6 +3,7 @@ import Container from "../Components/Container/Container";
 import axios from "axios";
 import { URL } from "../config";
 import { Link } from "react-router-dom";
+import '.././Style/aboutUs.css';
 
 const AboutUs = () => {
   const [aboutUs, setAboutUs] = useState('');
@@ -22,10 +23,11 @@ if (!aboutUs) {
         <h1 className="page-title">About Simply Lemons Recipes</h1>
 
         <div className="nav-wrapper">
-          <span><a href='#who-we-are'>Who We Are</a></span>
-          <span><a href='#our-history'>Our History</a></span>
-          <span><a href='#recipe-testing'>Recipe Development & Testing</a></span>
-          <span><a href='#contact-us'>Contact Us</a></span>
+          <span><a className="button-pink" href='#who-we-are'>Who We Are</a></span>
+          <span><a className="button-pink" href='#our-history'>Our History</a></span>
+          <span><a className="button-pink" href='#recipe-testing'>Recipe Development & Testing</a></span>
+          <span><a className="button-pink" href='#contact-us'>Contact Us</a></span>
+          <span><a className="button-pink" href='#authors'>Our Authors</a></span>
         </div>
 
       {aboutUs.map(data => (
@@ -40,13 +42,16 @@ if (!aboutUs) {
           <h2 id='recipe-testing' className="title">Recipe Development & Testing</h2>
           <p>{data.recipeDevelopment}</p>
 
+          <h2 id='authors' className="title">Our Authors</h2>
+          <Link className="button-pink" to='/authors'>To our Authors List</Link>
+
           <h2 id='contact-us' className="title">Contact Us</h2>
           <p>{data.contactUs}</p>
           <a href="mailto:contact@simplyrlemonecipes.com">{data.email}</a>
         </div>
 
 ))}
-        <Link to={'/home'}>Go to Home Page</Link>
+        <Link className="button-pink" to={'/'}>Go to Home Page</Link>
       </div>
     </Container>
   )

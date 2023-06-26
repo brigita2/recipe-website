@@ -1,0 +1,43 @@
+.page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: "HCo Archer SSm";
+}
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 21px 125px;
+}
+h1.page-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button-pink {
+    text-decoration: none;
+    border-color: #665258;
+    border-style: solid;
+    border-style: outset 2x;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 5px 5px;
+    background-color: #b2909a;
+    color:white;
+    font-family: "HCo Archer SSm";
+    text-transform: uppercase;
+}

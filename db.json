@@ -4,23 +4,19 @@
       "id": 1,
       "title": "Veggie Breakfast Tacos",
       "ingredients": {
-        "salsa": {
-            "tomato": "large yellow tomato, diced",
-            "onion": "3 tablespoons diced red onion",
-            "cilantro": "3 tablespoons chopped cilantro",
-            "pepper": "½ to 1 serrano pepper, thinly sliced",
-            "garlic": "1 garlic clove, minced",
-            "lime": "juice from ½ lime",
-            "salt": "¼ teaspoon sea salt"
-        },
-        "tacos": {
-            "pepper": "1 green pepper, cored, stem removed, and diced",
-            "scallions": "3 scallions, chopped",
-            "eggs": "6 eggs, beaten",
-            "arugula": "2 cups arugula or spinach, chopped",
-            "olive": "extra-virgin olive oil, for drizzling",
-            "salt": "sea salt and freshly ground black pepper"
-        }
+        "tomato": "large yellow tomato, diced",
+        "onion": "3 tablespoons diced red onion",
+        "cilantro": "3 tablespoons chopped cilantro",
+        "serrano": "½ to 1 serrano pepper, thinly sliced",
+        "garlic": "1 garlic clove, minced",
+        "lime": "juice from ½ lime",
+        "sea": "¼ teaspoon sea salt",
+        "pepper": "1 green pepper, cored, stem removed, and diced",
+        "scallions": "3 scallions, chopped",
+        "eggs": "6 eggs, beaten",
+        "arugula": "2 cups arugula or spinach, chopped",
+        "olive": "extra-virgin olive oil, for drizzling",
+        "salt": "sea salt and freshly ground black pepper"
       },
       "description": {
         "stepOne": "Make the Salsa: In a small bowl, combine the tomato, onion, cilantro, serrano, garlic, lime juice and salt. Chill until ready to use.",
@@ -64,27 +60,31 @@
     },
     {
       "id": 3,
-      "title": "Homemade Granola",
+      "title": "Strawberry Rhubarb Chia Overnight Oat Parfaits",
       "ingredients": {
-        "oats": "2 cups whole rolled oats",
-        "walnuts": "1/2 cup chopped walnuts, (or almonds, or a mix of both)",
-        "coconut": "1/2 cup coconut flakes, optional",
-        "cinnamon": "2 teaspoons cinnamon",
-        "salt": "1/2 teaspoon sea salt",
-        "oil": "2 tablespoons melted coconut oil",
-        "syrup": "1/4 cup maple syrup",
-        "butter": "2 tablespoons creamy almond butter",
-        "cranberries": "1/3 cup dried cranberries, optional"
+        "oats": "1 cup whole rolled oats",
+        "almond": "1 cup almond milk",
+        "oil": "Pinch of salt",
+        "cumin": "1 teaspoon ground cumin",
+        "mapleSyrup": "Drizzle of maple syrup, optional for sweeter oats",
+        "strawberries": "2 cups chopped strawberries",
+        "rhubarb": "1 cup chopped rhubarb (about 1 stalk, ends trimmed)",
+        "lemon": "½ teaspoon lemon juice",
+        "salt": "Pinch of salt",
+        "maple": "1 ½ to 2 tablespoons maple syrup",
+        "chia": "2 tablespoons chia seeds",
+        "syrup": "Maple syrup"
       },
       "description": {
-        "stepOne": "Preheat the oven to 300°F and line a baking sheet with parchment paper.",
-        "stepTwo": "In a medium bowl, combine the oats, walnuts, coconut flakes, if using, cinnamon, and salt. Drizzle in the coconut oil and maple syrup and add the almond butter. Stir until combined. Scoop the granola onto the baking sheet and press the mixture into a 1-inch-thick oval. This will encourage clumping.",
-        "stepThree": "Bake for 15 minutes, rotate the pan halfway, and use a fork to gently break the granola apart just a bit. Bake for 15 minutes more, or until golden brown. Sprinkle with dried cranberries, if desired. Let cool for 15 minutes before serving."
+        "stepOne": "Make the jam. In a small saucepan over medium heat, simmer the strawberries, rhubarb, lemon juice, and salt for 10 minutes, stirring often so that the fruit doesn't burn to the bottom of the pot. Remove from the heat and stir in the maple syrup and chia seeds. Let cool to room temperature, 20 to 30 minutes (the rhubarb will continue to soften). Transfer to a jar and chill for at least an hour.",
+        "stepTwo": "Make the oats. Divide the oats into 2 glass jars, pour in the almond milk, a pinch of salt, and maple syrup, if desired. Stir, cover, and chill overnight.",
+        "stepThree": "In the morning, assemble oat jars with a generous scoop of the chia jam.",
+        "stepFour": "If desired, serve with granola, (the crunch is a nice contrast to the soft oats), maple syrup for extra sweetness, and coconut cream if you’re feeling like a decadent breakfast."
       },
-      "intro": "Love granola? Learn how to make your own! Feel free to customize this recipe with your favorite nuts, seeds, and dried fruit.",
+      "intro": "One of my favorite rhubarb recipes, this easy chia jam is delicious over these overnight oat parfaits or slathered onto toast.",
       "authorId": 3,
       "categoryId": 1,
-      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2020/01/granola-recipe-580x872.jpg"
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2018/05/IMG_12133-5-580x757.jpg"
     },
     {
       "id": 4,
@@ -112,8 +112,186 @@
       "authorId": 1,
       "categoryId": 2,
       "img": "https://cdn.loveandlemons.com/wp-content/uploads/2021/04/cauliflower-tacos-580x363.jpg"
+    },
+    {
+      "id": 5,
+      "title": "https://cdn.loveandlemons.com/wp-content/uploads/2019/02/sweet-potato-tacos-1024x735.jpg",
+      "ingredients": {
+        "dough": "1 medium sweet potato, cubed",
+        "Sauce": "Extra-virgin olive oil, for drizzling",
+        "mozzarella": "1/2 teaspoon chili powder",
+        "tomatoes": "4 to 6 tortillas, I like these white corn & wheat tortillas, or homemade tortillas",
+        "basil": "1 cup black beans, cooked, drained, and rinsed",
+        "pepper": "Lime slices, for serving",
+        "oil": "Sea salt and freshly ground black pepper"
+      },
+      "description": {
+        "stepOne": "Preheat oven to 400° F and line a large baking sheet with parchment paper.",
+        "stepTwo": "Toss the sweet potatoes with olive oil, chili powder, salt and pepper, and spread onto the baking sheet. Roast for 20 minutes, or until golden brown.",
+        "stepThree": "Make the avocado yogurt sauce: In a small food processor, combine the yogurt, avocado, garlic, lime juice, and a few generous pinches of salt and pepper. Pulse until smooth. Taste and adjust seasonings. Chill until ready to use.",
+        "stepFour": "Assemble the tacos with a scoop of the sauce, the roasted sweet potatoes, black beans, and desired toppings. Season with salt, pepper, and squeezes of lime."
+      },
+      "intro": "These easy sweet potato tacos are a delicious vegetarian weeknight dinner that you can easily make vegan or gluten-free.",
+      "authorId": 2,
+      "categoryId": 2,
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/02/sweet-potato-tacos-1024x735.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Margherita Pizza",
+      "ingredients": {
+        "dough": "1 recipe Pizza Dough, stretched onto a 14-inch pizza pan or large baking sheet",
+        "Sauce": "½ heaping cup Pizza Sauce",
+        "mozzarella": "8 ounces fresh mozzarella cheese, torn or sliced",
+        "tomatoes": "½ cup thinly sliced cherry tomatoes",
+        "basil": "10 fresh basil leaves",
+        "pepper": "Pinch red pepper flakes",
+        "oil": "Extra-virgin olive oil, for drizzling"
+      },
+      "description": {
+        "stepOne": "Preheat the oven to 500°F",
+        "stepTwo": "Spread the pizza sauce onto the dough. Top with the fresh mozzarella and tomatoes and bake 10 to 12 minutes, or until the crust is browned. Remove from the oven and top with fresh basil leaves and a pinch of red pepper flakes. Drizzle with olive oil and serve."
+      },
+      "intro": "This homemade margherita pizza recipe is so easy and delicious! My biggest tip for this recipe is to use good-quality ingredients like fresh basil and sauce made with San Marzano tomatoes. Because the recipe is so simple, you'll really taste the difference.",
+      "authorId": 2,
+      "categoryId": 2,
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza-recipe.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Easy Greek Salad",
+      "ingredients": {
+        "oil": "¼ cup extra-virgin olive oil",
+        "vinegar": "3 tablespoons red wine vinegar",
+        "garlic": "1 garlic clove, minced",
+        "oregano": "½ teaspoon dried oregano, more for sprinkling",
+        "mustard": "¼ teaspoon Dijon mustard",
+        "cucumber": "1 English cucumber, cut lengthwise, seeded, and sliced ¼-inch thick",
+        "pepper": "1 green bell pepper, chopped into 1-inch pieces",
+        "tomatoes": "2 cups halved cherry tomatoes",
+        "feta": "5 ounces feta cheese, cut into ½ inch cubes",
+        "onion": "⅓ cup thinly sliced red onion",
+        "olives": "⅓ cup pitted Kalamata olives",
+        "mint": "⅓ cup fresh mint leaves",
+        "salt": "¼ teaspoon sea salt",
+        "pepperBlack": "Freshly ground black pepper"
+      },
+      "description": {
+        "stepOne": "In a small bowl, whisk together the olive oil, vinegar, garlic, oregano, mustard, salt, and several grinds of pepper.",
+        "stepTwo": "On a large platter, arrange the cucumber, green pepper, cherry tomatoes, feta cheese, red onions, and olives. Drizzle with the dressing and very gently toss. Sprinkle with a few generous pinches of oregano and top with the mint leaves. Season to taste and serve."
+      },
+      "intro": "One of our favorite salad recipes! This easy Greek salad recipe is a flavorful, refreshing side dish!",
+      "authorId": 1,
+      "categoryId": 3,
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/salad.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Simple Green Salad",
+      "ingredients": {
+        "almonds": "½ cup whole almonds",
+        "grapes": "1 cup red seedless grapes",
+        "oil": "Extra-virgin olive oil, for drizzling",
+        "pepper": "Sea salt and freshly ground black pepper",
+        "tamari": "½ tablespoon tamari",
+        "arugula": "6 cups arugula",
+        "vinaigrette": "Lemon vinaigrette, for drizzling",
+        "parmesan": "¼ cup shaved Parmesan or pecorino"
+      },
+      "description": {
+        "stepOne": "Preheat the oven to 400°F and line 2 baking sheets with parchment paper.",
+        "stepTwo": "Place the almonds on the first sheet and the grapes on the second. Drizzle the almonds and grapes with olive oil and sprinkle with salt and pepper. Toss the almonds with the tamari and roast for 7 to 10 minutes, or until dark and toasty. Roast the grapes for 7 to 15 minutes, until they’re soft and just starting to burst. The timing will depend on the size of the grapes.",
+        "stepThree": "Place the arugula in a large shallow bowl and toss with drizzles of the vinaigrette. Top with the almonds, grapes, and Parmesan. Season to taste and serve."
+      },
+      "intro": "Roasted grapes add a delightful sweetness to this simple arugula salad recipe. A fresh, flavorful side dish, it's a perfect addition to a holiday menu or dinner any night of the week.",
+      "authorId": 2,
+      "categoryId": 3,
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2021/11/arugula-salad-1024x702.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Avocado Sweet Potato Tacos",
+      "ingredients": {
+        "bread": "1 medium sweet potato, cubed",
+        "oil": "Extra-virgin olive oil, for drizzling",
+        "lettuce": "1/2 teaspoon chili powder",
+        "dressing": "4 to 6 tortillas, I like these white corn & wheat tortillas, or homemade tortillas",
+        "radishes": "1 cup black beans, cooked, drained, and rinsed",
+        "chickpeas": "Lime slices, for serving",
+        "cheese": "Sea salt and freshly ground black pepper",
+        "yogurt": "1/2 cup whole milk Greek yogurt",
+        "avocado": "1 small avocado",
+        "garlic": "1/2 garlic clove",
+        "lime": "Juice of 1 lime"
+      },
+      "description": {
+        "stepOne": "Assemble bowls with a grain, the massaged kale, a legume, roasted vegetable, raw vegetable, and a fermented or pickled vegetable.",
+        "stepTwo": "Drizzle generously with tahini sauce and sprinkle with sesame seeds. Serve with more tahini sauce on the side.",
+        "stepThree": "To roast the vegetables, preheat the oven to 425°F. Toss with olive oil, salt, and pepper, and roast the carrots for 15 to 20 minutes, and the sweet potatoes for 20 to 28 minutes."
+      },
+      "intro": "These easy sweet potato tacos are a delicious vegetarian weeknight dinner that you can easily make vegan or gluten-free.",
+      "authorId": 1,
+      "categoryId": 4,
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2018/01/lunch-ideas.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Healthy Lunch Wraps",
+      "ingredients": {
+        "oil": "¾ cup extra-virgin olive oil",
+        "vinegar": "¼ cup white wine vinegar",
+        "lemon": "¼ cup fresh lemon juice",
+        "mustard": "3 tablespoons Dijon mustard",
+        "honey": "2 tablespoons honey",
+        "garlic": "1 garlic clove",
+        "salt": "½ teaspoon sea salt",
+        "cheese": "¼ cup Parmesan cheese, optional",
+        "chickpeas": "2 cups cooked chickpeas, drained and rinsed",
+        "kale": "3 curly kale leaves, stemmed and finely chopped",
+        "sprouts": "6 Brussels sprouts, thinly sliced",
+        "radicchio": "½ cup thinly sliced radicchio",
+        "parmesan": "Shredded Parmesan cheese, optional",
+        "avocado": "1 ripe avocado, sliced",
+        "tortillas": "4 extra-large tortillas"
+      },
+      "description": {
+        "stepOne": "Make the dressing. In a blender, combine the oil, vinegar, lemon juice, mustard, honey, garlic, salt, and cheese, if desired. Blend until creamy and emulsified.",
+        "stepTwo": "Make the wrap fillings. In a small bowl, use a potato masher to mash the chickpeas with ¼ cup of the dressing, ¼ teaspoon salt, and several grinds of fresh black pepper.",
+        "stepThree": "In a medium bowl, toss the kale, Brussels sprouts, and radicchio with ⅓ cup of the dressing.",
+        "stepFour": "Assemble the wraps: divide the chickpea mixture, salad mixture, avocado, and cheese, if using, among the tortillas. Fold the left and right sides of the tortilla over the filling. Fold the bottom flap of the tortilla up and over the filling and roll the wrap closed. Wrap in foil, slice in half crosswise, and serve with the remaining dressing on the side for dipping."
+      },
+      "intro": "These sandwich wraps are a perfect healthy lunch! They're fresh, satisfying, and packed with bold flavor from the zingy vinaigrette.",
+      "authorId": 2,
+      "categoryId": 4,
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2021/08/healthy-wraps-1.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Best Egg Salad",
+      "ingredients": {
+        "oil": "¼ cup mayonnaise",
+        "vinegar": "1 teaspoon extra-virgin olive oil",
+        "lemon": "2 teaspoons Dijon mustard",
+        "mustard": "1 teaspoon capers",
+        "honey": "1 teaspoon fresh lemon juice",
+        "garlic": "1 small garlic clove, minced",
+        "salt": "¼ teaspoon turmeric",
+        "cheese": "¼ teaspoon sea salt",
+        "chickpeas": "Freshly ground black pepper",
+        "kale": "6 hard boiled eggs, diced",
+        "sprouts": "Pinches of celery seed",
+        "radicchio": "2 tablespoons chopped fresh dill",
+        "parmesan": "2 tablespoons chopped fresh chives"
+      },
+      "description": {
+        "stepOne": "In a small bowl, whisk together the mayonnaise, olive oil, mustard, capers, lemon juice, garlic, turmeric, salt, and several grinds of black pepper.",
+        "stepTwo": "Mix in the eggs, then stir in the celery seed, dill, and chives. If desired, lightly mash the mixture if it's too chunky. Chill until ready to serve."
+      },
+      "intro": "These sandwich wraps are a perfect healthy lunch! They're fresh, satisfying, and packed with bold flavor from the zingy vinaigrette.",
+      "authorId": 3,
+      "categoryId": 4,
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2020/04/egg-salad-recipe-714x1024.jpg"
     }
-
   ],
   "authors": [
     {
@@ -140,14 +318,47 @@
     },
     {
       "id": 3,
-      "name": "Sally",
-      "surname": "Vargas",
-      "business": "Sally Pasley Vargas",
-      "location": "Massachussetts",
-      "education": "Vassar College, Pastry at the Culinary Institute of America",
-      "expertise": "Vegetarian, Healthy, French, Mediterranean, Pastry",
-      "experience": "After twelve years in the restaurant kitchen, Sally began writing about food. She is the author of four cookbooks. The Tao of Cooking, her first book, drew upon her experience at The Tao, a popular vegetarian restaurant in Bloomington, Indiana. Subsequent books include Food for Friends (gifts of food), The Cranberry Cookbook, and The Blueberry Cookbook. Sally is a regular correspondent for the Boston Globe Wednesday Food Section. She teaches cooking, develops recipes, photographs food, and occasionally creates memorable meals for clients. Favorite meal: My favorite meal is anything someone else cooks for me; I’ll take a hot dog if you will cook it for me, I’m not fussy. Also, my last name is pronounced Paisley, a stumper for those who don’t know me!",
-      "img": "https://www.simplyrecipes.com/thmb/3L4XVNKUktOJeWw8QyN6JqOHF8w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/sally-vargas-square-1600-8fe88067677440669e4d2fc3f3fd979f.jpg"
+      "name": "Summer",
+      "surname": "Miller",
+      "business": "Summer Miller",
+      "location": "Omaha, Nebraska",
+      "education": "BA in English Linguistics, University of Nebraska",
+      "expertise": "Recipe Development",
+      "experience": "Summer has 20 years of publishing experience working in media across all of its platforms: magazine, newspaper, and digital. Summer has spent the last 12 years working exclusively in food media where she has worked as a recipe developer, recipe tester, food journalist, essayist, cookbook author, and public speaker. Her work has appeared in Eating Well,Saveur, Bon Appétit, Grit and Edible Communities publications among others. She started working with Simply Recipes in 2017 where she has worked as a recipe tester, developer, associate editor and senior editor for the organization. She has won multiple awards for feature writing and social media campaigns throughout her career. Her book, New Prairie Kitchen, won the Nebraska Book Award for non-fiction in 2016 and Epicurious noted it as a “Need to Read” cookbook.",
+      "img": "https://www.simplyrecipes.com/thmb/0fcpsfeZER0EVBF6xiFdLMwoppc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SRHeadshots-SummerMiller-13915132cb4e4e169e0e9ef42b933b10.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Summer",
+      "surname": "Miller",
+      "business": "Summer Miller",
+      "location": "Omaha, Nebraska",
+      "education": "BA in English Linguistics, University of Nebraska",
+      "expertise": "Recipe Development",
+      "experience": "Summer has 20 years of publishing experience working in media across all of its platforms: magazine, newspaper, and digital. Summer has spent the last 12 years working exclusively in food media where she has worked as a recipe developer, recipe tester, food journalist, essayist, cookbook author, and public speaker. Her work has appeared in Eating Well,Saveur, Bon Appétit, Grit and Edible Communities publications among others. She started working with Simply Recipes in 2017 where she has worked as a recipe tester, developer, associate editor and senior editor for the organization. She has won multiple awards for feature writing and social media campaigns throughout her career. Her book, New Prairie Kitchen, won the Nebraska Book Award for non-fiction in 2016 and Epicurious noted it as a “Need to Read” cookbook.",
+      "img": "https://www.simplyrecipes.com/thmb/0fcpsfeZER0EVBF6xiFdLMwoppc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SRHeadshots-SummerMiller-13915132cb4e4e169e0e9ef42b933b10.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Summer",
+      "surname": "Miller",
+      "business": "Summer Miller",
+      "location": "Omaha, Nebraska",
+      "education": "BA in English Linguistics, University of Nebraska",
+      "expertise": "Recipe Development",
+      "experience": "Summer has 20 years of publishing experience working in media across all of its platforms: magazine, newspaper, and digital. Summer has spent the last 12 years working exclusively in food media where she has worked as a recipe developer, recipe tester, food journalist, essayist, cookbook author, and public speaker. Her work has appeared in Eating Well,Saveur, Bon Appétit, Grit and Edible Communities publications among others. She started working with Simply Recipes in 2017 where she has worked as a recipe tester, developer, associate editor and senior editor for the organization. She has won multiple awards for feature writing and social media campaigns throughout her career. Her book, New Prairie Kitchen, won the Nebraska Book Award for non-fiction in 2016 and Epicurious noted it as a “Need to Read” cookbook.",
+      "img": "https://www.simplyrecipes.com/thmb/0fcpsfeZER0EVBF6xiFdLMwoppc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SRHeadshots-SummerMiller-13915132cb4e4e169e0e9ef42b933b10.jpg"
+    },
+    {
+      "name": "Tomas",
+      "surname": "Gaubys",
+      "business": "",
+      "location": "",
+      "education": "",
+      "expertise": "",
+      "experience": "",
+      "imgUrl": "",
+      "id": 7
     }
   ],
   "comments": [
@@ -161,34 +372,28 @@
   ],
   "categories": [
     {
-    "id": 1,
-    "title": "Healthy Breakfast Ideas",
-    "description": "Stuck in a breakfast rut? Find over 60 healthy breakfast ideas below! With sweet, savory, easy & make-ahead options, we have something for everyone.",
-    "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/breakfast-580x817.jpg"
+      "id": 1,
+      "title": "Healthy Breakfast Ideas",
+      "description": "Stuck in a breakfast rut? Find over 60 healthy breakfast ideas below! With sweet, savory, easy & make-ahead options, we have something for everyone.",
+      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/healthy-breakfast-580x832.jpg"
     },
     {
-      "id":2,
-      "title":"Easy Dinner Ideas",
+      "id": 2,
+      "title": "Easy Dinner Ideas",
       "description": "Wondering what to make for dinner? You're in the right place! Below, you'll find easy dinner ideas to satisfy any craving. Think tacos, pasta, and more!",
       "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/09/easy-dinner-ideas-1-580x802.jpg"
     },
     {
-      "id":3,
-      "title":"Best Salad Recipes",
+      "id": 3,
+      "title": "Best Salad Recipes",
       "description": "A big, bountiful salad is the best way to celebrate delicious seasonal produce! Here are 51 stunning salad recipes I love to make again and again.",
       "img": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/salad-580x845.jpg"
     },
     {
-      "id":4,
-      "title":"Healthy Lunch Ideas",
+      "id": 4,
+      "title": "Healthy Lunch Ideas",
       "description": "If you're looking for new healthy lunch ideas, you're in the right place. These easy lunch recipes are fun, filling, and good for you, too!",
       "img": "https://cdn.loveandlemons.com/wp-content/uploads/2018/01/lunch-ideas-580x793.jpg"
-    },
-    {
-      "id":5,
-      "title":"Easy Summer Desserts",
-      "description": "These easy summer desserts include fruit crisps, frozen treats, no-bake recipes, and more! No matter what you're craving, you'll find one you love.",
-      "img": "https://cdn.loveandlemons.com/wp-content/uploads/2021/06/summer-desserts-1-580x735.jpg"
     }
   ],
   "aboutUs": [
@@ -196,13 +401,13 @@
       "id": 1,
       "title": "About Us",
       "whoWeAre": {
-          "firstParagraph": "Simply Recipes is here to help you cook delicious meals with less stress and more joy. We offer recipes and cooking advice for home cooks, by home cooks. Helping create “kitchen wins” is what we’re all about.", 
-          "secondParagraph": "Simply Recipes was founded in 2003 by Elise Bauer as a home cooking blog to record her favorite family recipes. Today, Simply Recipes has grown into a trusted resource for home cooks with more than 3,000 tested recipes, guides, and meal plans, drawing over 15 million readers each month from around the world. We’re supported by a diverse group of recipe developers, food writers, recipe and product testers, photographers, and other creative professionals."
-        },
+        "firstParagraph": "Simply Recipes is here to help you cook delicious meals with less stress and more joy. We offer recipes and cooking advice for home cooks, by home cooks. Helping create “kitchen wins” is what we’re all about.",
+        "secondParagraph": "Simply Recipes was founded in 2003 by Elise Bauer as a home cooking blog to record her favorite family recipes. Today, Simply Recipes has grown into a trusted resource for home cooks with more than 3,000 tested recipes, guides, and meal plans, drawing over 15 million readers each month from around the world. We’re supported by a diverse group of recipe developers, food writers, recipe and product testers, photographers, and other creative professionals."
+      },
       "ourHistory": "Elise Bauer was a busy Silicon Valley executive when she became sick with a flu that wouldn’t go away in 2001. In 2003, Elise moved home with her parents and lived with them for several years, recovering from chronic fatigue and documenting her parents’ cooking on Simply Recipes. (Here’s more of that story.) Over the years, what started as a small blog grew to reach millions of readers every month! In 2020, Simply Recipes was acquired by Dotdash Meredith, a New York-based media company.",
       "recipeDevelopment": "Our recipes primarily use fresh, unprocessed ingredients but we also believe there is a time and a place for canned, frozen, and other prepared ingredients. We believe in a diet that includes a wide variety of foods: real butter and cream, extra virgin olive oil, eggs, lots of fruits and vegetables, and protein from meat, fish, beans, and cheese. Plus cake for dessert.",
       "contactUs": "Have something you’d like to let us know? Whether you have a comment on a recipe or an idea to share, we would love to hear from you:",
       "email": "contact@simplyrlemonecipes.com."
-  }
-]
+    }
+  ]
 }
