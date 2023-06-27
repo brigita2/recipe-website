@@ -5,6 +5,7 @@ import { URL } from "../config";
 import IngredientsList from "../Components/IngredientsList";
 import InstructionsList from "../Components/Container/InstructionsList";
 import Container from "../Components/Container/Container";
+import '../Style/recipe.css'
 
 const Recipe = () => {
 
@@ -24,6 +25,7 @@ const Recipe = () => {
     <Container>
 
         <div className="recipe-wrapper">
+          <div className="inside-wrapper">
             <img src={recipe.img} alt={recipe.title}/>
             <h1 className="recipe-title">{recipe.title}</h1>
             <p className="recipe-description">{recipe.intro}</p>
@@ -31,11 +33,11 @@ const Recipe = () => {
             {recipe.author && (
                 <Link to={`/authors/${recipe.author.id}`}><h2>Author: {recipe.author.name} {recipe.author.surname}</h2></Link> 
                 )}
-            <>
-            <IngredientsList recipe={recipe} />
-            <InstructionsList recipe={recipe} />
-            </>
-
+              <>
+              <IngredientsList recipe={recipe} />
+              <InstructionsList recipe={recipe} />
+              </>
+          </div>
         </div>
     </Container>
   )

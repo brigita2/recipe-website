@@ -24,8 +24,8 @@ const Recipes = () => {
         <h1 className="page-title">All Recipes</h1>
         <div className="recipes-wrapper-left">
 
-          {categories.map(category => (
-            <div key={category.id} className="category-card">
+          {categories.map((category, index) => (
+            <div key={index} className="category-card">
               <Link to={`/recipes/${category.id}`}>
                 <img src={category.img} alt={category.title}/>
                 <h2 className="category-title">{category.title}</h2>
@@ -33,8 +33,8 @@ const Recipes = () => {
           </div>
       ))}
         </div>
-        {categories.map(category =>(
-        <div className="recipes-wrapper-right">
+        {categories.map((category, index) =>(
+        <div key={index} className="recipes-wrapper-right">
           <h3>Filter Recipes:</h3>
           <Link className="button-pink" to={`/recipes/${category.id}`}>Breakfast Ideas</Link>
           <Link className="button-pink" to={`/recipes/${category.id}`}>Easy Dinner Ideas</Link>

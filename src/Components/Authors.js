@@ -3,6 +3,7 @@ import Container from "./Container/Container";
 import axios from "axios";
 import { URL } from "../config";
 import { Link } from "react-router-dom";
+import '../Style/author.css'
 
 const Authors = () => {
 
@@ -23,15 +24,19 @@ const Authors = () => {
 
     <div className="authors-wrapper">
         {authors.map((author, index) => (
-        <Link key={index} to={`/authors/${author.id}`}>
-            <h1>{author.name} {author.surname}</h1>
-            <p>From: {author.location}</p>
-            <img src={author.img} alt={author.name}/>
-        </Link>
+        <div className="author-card">
+          <Link key={index} to={`/authors/${author.id}`}>
+              <h1>{author.name} {author.surname}</h1>
+              <p>From: {author.location}</p>
+              <img src={author.img} alt={author.name}/>
+          </Link>
+        </div>
         ))}
     </div>
+    <div className="create-author-button">
+    <Link className="button-pink" to={'/authors/create'}>Create new Author</Link>
+    </div>
 
-    <Link to={'/authors/create'}>Create new Author</Link>
     </Container>
   )
 }

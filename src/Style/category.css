@@ -1,0 +1,31 @@
+.breakfast-recipes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recipe-card {
+    width: 50%;
+}
+.recipe-card img {
+    height: 500px;
+    width: 90%;
+    object-fit: cover;
+}
+.recipe-card a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+@media (max-width:890px) {
+    .container {
+     padding-left: 0px;
+    padding-right: 0px;
+    }
+    .recipe-card {
+        width: 100%;
+    }
+}
