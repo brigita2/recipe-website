@@ -11,7 +11,7 @@ if (!categories) {
 }
   return (
     <Container>
-      <div className="breakfast-recipes-wrapper">
+      <div className="recipes-wrapper">
         <h1 className="page-title">{categories.title}</h1>
         <p>{categories.description}</p>
         

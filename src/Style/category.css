@@ -1,7 +1,4 @@
-.breakfast-recipes-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .recipe-card {
     width: 50%;
 }

@@ -59,6 +59,10 @@ code {
   background-color: #b2909a;
   color: white;
   padding: 150px 100px;
+  background-image: url(https://www.loveandlemons.com/wp-content/themes/loveandlemons5/images/lnl-social-links-white.png);
+  background-position: top;
+  background-position-y: 40px;
+  background-repeat: no-repeat;
 }
 .bottom-decoration {
   width: 100%;
@@ -85,4 +89,7 @@ code {
   color:white;
   font-family: "HCo Archer SSm";
   text-transform: uppercase;
+}
+.home-wrapper {
+  min-height: 800px;
 }

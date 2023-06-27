@@ -8,6 +8,7 @@ import Author from "./Pages/Author";
 import Authors from "./Components/Authors";
 import CreateAuthor from "./Components/CreateAuthor";
 import Container from "./Components/Container/Container";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -75,8 +76,8 @@ function App() {
       </Routes>
       </Container>
     </div>
-    <div className="bottom-decoration"></div>
-    <footer className="page-footer"></footer>
+
+      <Footer />
     </>
   );
 }
